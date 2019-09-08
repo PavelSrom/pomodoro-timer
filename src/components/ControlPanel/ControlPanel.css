@@ -1,0 +1,23 @@
+.controls {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.fas {
+  font-size: 32px;
+  color: deepskyblue;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+.fas:hover {
+  color: lightskyblue;
+}
+@media (min-width: 768px) {
+  .controls {
+    max-width: 600px;
+  }
+  .fas {
+    font-size: 48px;
+  }
+}

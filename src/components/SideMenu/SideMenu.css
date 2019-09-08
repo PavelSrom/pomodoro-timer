@@ -1,0 +1,91 @@
+.side-menu {
+  width: 230px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  transition: all 450ms ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+.open {
+  transform: translateY(0);
+  opacity: 1;
+}
+.close {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.menu-h {
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  height: 60px;
+  margin-bottom: 40px;
+}
+p {
+  margin-bottom: 0;
+}
+.menu-h p {
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+.fa-times {
+  font-size: 32px;
+  color: #fff;
+  cursor: pointer;
+}
+.fa-times:hover {
+  color: deepskyblue;
+}
+.label {
+  font-size: 22px;
+  color: #fff;
+}
+.submitBtn {
+  margin-top: 10px;
+  font-size: 22px;
+  padding: 6px 8px;
+  outline: none;
+  border: 2px solid deepskyblue;
+  border-radius: 4px;
+  color: deepskyblue;
+  background: #fff;
+  transition: all 250ms ease-in-out;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.submitBtn:hover {
+  background: deepskyblue;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.credentials {
+  text-align: center;
+  color: deepskyblue;
+  margin-top: auto;
+}
+.fa-react {
+  font-size: 40px;
+  animation-name: rotate;
+  animation-duration: 12000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.copyright {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 20px;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

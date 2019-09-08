@@ -1,0 +1,14 @@
+.bar-background {
+  width: 100%;
+  height: 6px;
+  background: #ddd;
+}
+.bar {
+  height: 100%;
+  background: deepskyblue;
+}
+@media (min-width: 768px) {
+  .bar-background {
+    height: 10px;
+  }
+}
